@@ -50,7 +50,7 @@ const LoginForm = () => {
         localStorage.setItem("token", data.token);
 
         // Navigate to home page
-        router.push("/userhome");
+        router.push("/home");
       } else {
         console.error("Login failed");
         setError("Incorrect email or password"); // Set error message
