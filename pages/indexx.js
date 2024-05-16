@@ -1,12 +1,11 @@
 // app/page.js
 
-import Layout from './layout';
+import Layout from "../app/layout";
 
 const Page = () => {
   return (
     <Layout>
-      <div>
-      </div>
+      <div></div>
     </Layout>
   );
 };
